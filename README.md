@@ -8,6 +8,8 @@
 
   <ul>
     <li>Java</li>
+    <li>Maven</li>
+    <li>jsoup</li>
   </ul>
   
 ## What I learned during the development of this project

@@ -1,7 +1,5 @@
 package io;
 
-import app.Option;
-
 import java.util.Scanner;
 
 public class DataReader {

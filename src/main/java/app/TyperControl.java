@@ -4,8 +4,6 @@ import io.DataReader;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 
 import java.io.IOException;
 
@@ -19,7 +17,6 @@ public class TyperControl {
     }
 
     public void typeMatch(String url){
-        final String API_KEY = "7e155d7a-bda4-49fa-9bb0-919902365611";
 
         try {
             Document response = Jsoup.connect(url).get();

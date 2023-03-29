@@ -6,6 +6,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import java.io.IOException;
+import java.util.Map;
 
 public class TyperControl {
     private final DataReader dataReader = new DataReader();
@@ -19,9 +20,12 @@ public class TyperControl {
     public void typeMatch(String url){
 
         try {
-            String strText = Jsoup.connect(url).referrer("http://www.google.com").ignoreHttpErrors(true).get().text();
+            Connection.Response response = Jsoup.connect(url).referrer("http://www.google.com").ignoreHttpErrors(true).execute();
 //            Document response = Jsoup.connect(url).ignoreHttpErrors(true).timeout(5000).get();
-            System.out.println(strText);
+
+            Map<String, String> cookies = response.cookies();
+
+            System.out.println(cookies);
         } catch (IOException e) {
             System.err.println("Error: " + e.getMessage());
         }

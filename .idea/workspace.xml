@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd8c1494-8176-46fb-a348-2ab8191bb108" name="Changes" comment="version 0.0.2">
+    <list default="true" id="fd8c1494-8176-46fb-a348-2ab8191bb108" name="Changes" comment="version 0.0.4 - Error 403 has been fixed">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_03_2023_20_32_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_03_2023_20_32__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/TyperControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/TyperControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Option.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/TyperControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/TyperControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/DataReader.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +37,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Sebastian/IdeaProjects/bikerent",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sebastian/IdeaProjects/CSGOTyper&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sebastian\IdeaProjects\CSGOTyper" />
@@ -84,6 +90,9 @@
       <workItem from="1679601616013" duration="3474000" />
       <workItem from="1679681520188" duration="5006000" />
       <workItem from="1679769410911" duration="72000" />
+      <workItem from="1679941310551" duration="866000" />
+      <workItem from="1680032871712" duration="94000" />
+      <workItem from="1680032985034" duration="2402000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1679601155429</created>
@@ -106,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679686338909</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="version 0.0.3 - Refactoring">
+      <created>1679941569522</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679941569522</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +132,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="version 0.0.1 - The io DataReader class has been added, as well as the TypeControl class which contains the business logic, in addition try,catch has been used and Maven has been added." />
     <MESSAGE value="version 0.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 0.0.2" />
+    <MESSAGE value="version 0.0.3 - Refactoring" />
+    <MESSAGE value="version 0.0.4 - Error 403 has been fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 0.0.4 - Error 403 has been fixed" />
   </component>
 </project>
